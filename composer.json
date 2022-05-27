@@ -1,0 +1,21 @@
+{
+  "name": "ukwscltd/openapitools",
+  "description": "Provides classes that interact with an open api specification",
+  "type": "library",
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicholas Ashley",
+      "email": "nicholas@ukwsc.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ukwscltd\\openapitools\\": "src/"
+    }
+  }
+}
